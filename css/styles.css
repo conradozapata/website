@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+p{ color: black;
+    font-family: fantasy;
+    
+
+}
+
+
+
+body{
+    background-color: black;
+}
+
+
+
+
+
+section{
+    height: 60vh;
+}
+
+
+ header{
+    flex-direction: column;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+padding-top: 15px;
+padding-bottom: 15px;
+background-color: black;
+
+ }
+
+section#hero{
+    display: flex;  
+    background-color:  rgb(68, 214, 240);
+    flex-direction: column;
+    justify-content: center;     
+    align-items: center;
+    border-color: black;
+    border:60px solid black;
+    
+    
+}
+
+footer{  background-color: brown;
+text-shadow: 2px;
+border-image: auto;
+
+}
+
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: fantasy;
+    
+}
+ #ti-tle {
+
+font-family: fantasy ;
+text-align: center;
+border: 1px solid white ;
+border-radius: 3px;
+background-color: black;
+font-size: 2rem;
+padding-top: 5px;
+text-shadow: 2px;
+box-shadow: 3px;
+}
+
+
+h2{
+    text-align: center;
+    color:beige;
+ font-size: 2rem;
+ padding-top: 50px;
+
+}
+h3{
+    
+    color: white;
+    text-align: center;
+    
+
+}
+
+
+h4{
+
+    text-align: center
+}
+
+h5{
+    text-align: end;
+}
+
+.project-list{
+    
+    padding-top: 30px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+}
+
+
+.project-detail{
+border: 6px solid skyblue;
+border-radius: 15px;
+width: 300px;
+margin: 20px;
+background-color: rgb(49, 106, 180);
+}
+
+
+
+.project-detail img{
+    width: 100%;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px ;
+    background-color: antiquewhite;
+}
+
+input{
+    color: black;
+}
+textPath{
+    color: black;
+}
+label{
+    color:bLACK;
+}
+
+Li{  
+    font-family: monospace;
+    font-size: 20PX;
+    
+
+}
